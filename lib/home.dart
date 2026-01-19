@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_widgets/widgets/time_picker_widget.dart';
+import 'package:flutter_basic_widgets/widgets/padding_widget.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [Center(child: TimePickerWidget())],
+          children: [Center(child: PaddingWidget())],
         ),
       ),
     );
