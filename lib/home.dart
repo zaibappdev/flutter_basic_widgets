@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_widgets/widgets/animated_text_kit.dart';
+import 'package:flutter_basic_widgets/widgets/stream_builder_widget.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [Center(child: AnimatedTextKitPackage())],
+          children: [Center(child: StreamBuilderWidget())],
         ),
       ),
     );
