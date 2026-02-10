@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic_widgets/widgets/material_button_widget.dart';
+import 'home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Basic Widgets',
-      home: MaterialButtonWidget(),
+      home: Home(),
     );
   }
 }
